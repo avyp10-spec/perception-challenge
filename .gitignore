@@ -1,0 +1,41 @@
+# Dataset (do not upload)
+dataset/
+*.zip
+
+# Virtualenv and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Matplotlib / Jupyter leftovers
+.ipynb_checkpoints/
+mpl_configdir/
+
+# Additional caches, secrets, and temporary files
+**/*pycache*/
+.ruff_cache/
+.cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+.env
+.env.*
+*.pem
+*.key
